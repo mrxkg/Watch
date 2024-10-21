@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: League Spartan;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  background-color: #efefef;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 100;
+  color: #3c3c3c;
+  line-height: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 150px;
+  justify-content: space-evenly;
+}
+
+.header h1 {
+  margin-top: 150px;
+  font-size: 250px;
+  font-weight: 300;
+  color: #272727;
+}
+
+.header h5 {
+  font-weight: 300;
+}
+
+.header p {
+  margin-top: 40px;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.header button {
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.btnBay {
+  background-color: #161515;
+  width: 260px;
+  height: 70px;
+  color: white;
+  font-size: 27px;
+  font-weight: lighter;
+  border: none;
+}
+
+.btnPrice {
+  background-color: #ffffff;
+  width: 145px;
+  height: 70px;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  font-weight: lighter;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.Models {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Models h1 {
+  margin-top: 3px;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.Models img {
+  margin-block: 80px;
+  background-color: #f2f2f2;
+  padding: 120px 90px;
+}
+
+.Models h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.watch img {
+  margin-block: 80px;
+  background-color: #f2f2f2;
+  padding: 50px 10px;
+}
+
+.watch h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-block: 150px;
+}
+
+.btnleft {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.btnleft p {
+  margin-top: 60px;
+}
+
+h2 {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btnleft span {
+  text-decoration: underline;
+  color: burlywood;
+  font-weight: 500;
+}
+
+.solid {
+  margin-left: 25%;
+  width: 300px;
+  border-bottom: 1px solid black;
+}
